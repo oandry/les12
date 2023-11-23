@@ -1,0 +1,74 @@
+/* Algemene stijlen */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Achtergrondkleuren voor cellen in kolom 1 en 3 */
+  #cell1 {
+    background-color: #ffa500; /* Oranje */
+  }
+
+  #cell3 {
+    background-color: #F7300D; /* Rood */
+  }
+
+  #cell7 {
+    background-color: #a6aa23; /* Geel */
+  }
+
+  #cell9 {
+    background-color: #4c319e; /* Blaauw */
+  }
+
+   #cell11 {
+    background-color: #00ff40; /* Groen */
+  }
+
+  #cell13 {
+    background-color: #d000ff; /* Paars */
+  }
+
+  #cell15 {
+    background-color: #ff0088; /* Rood */
+  }
+
+  #cell5 {
+    background-color: #f9d694; /* Oranje */
+  }
+  
+  
+  /* Achtergrondkleuren voor cellen in kolom 2 en 4 */
+  #cell2, #cell4, #cell6, #cell8, #cell10, #cell12, #cell14, #cell16 {
+    background-color: #00ff00; /* Groen */
+  }
+  
